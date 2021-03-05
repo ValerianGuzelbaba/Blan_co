@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'aileronregular';
+    src: url('police/Aileron-Regular-webfont.eot');
+    src: url('police/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/Aileron-Regular-webfont.woff') format('woff'),
+         url('police/Aileron-Regular-webfont.ttf') format('truetype'),
+         url('police/Aileron-Regular-webfont.svg#aileronregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "aileronregular", georgia, times;
+    color: black;
+    width: 1200px;
+    margin: auto;
+}
+h2, h3{
+    font-weight: lighter;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+/*section{*/
+    /*! display: flex; */
+    /*! flex-wrap: wrap; */
+
+#rue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#rue img{
+    width: 100%;
+    height: auto;
+}
+#portfiolo{
+    /*! display: flex; */
+    /*! justify-content: center; */
+    position: absolute;
+    /*! top: 0; */
+    /*! bottom: 0px; */
+    width: auto;
+    height: auto;
+    color: white;
+    /*! align-items: center; */
+}
+#portfiolo h2{
+    color: white;
+    border: 5px solid white; 
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+}
+#bloc_1{
+    width: 100%;
+    height: auto; 
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+#photo_2, #photo_3, #photo_4, #photo_5{
+    width: 50%; 
+    height: auto;
+}
+.mannequin img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+#photo_2{
+    position: relative;
+}
+#london{
+    position: absolute;
+    top: 150px;
+    left: 230px;
+    text-align: center;
+    color: white;
+    width: auto;
+    height: auto;
+}
+#cadre{
+    position: absolute;
+    top: 125px;
+    left: 235px;
+    width: auto;
+}
+#photo_3{
+    position: relative;
+}
+#work{
+    position: absolute;
+    top: 150px;
+    left: 265px;
+    text-align: center;
+    color: white;
+    width: auto;
+    height: auto;
+}
+#cadre_1{
+    position: absolute;
+    top: 125px;
+    left: 235px;
+    width: auto;
+}
+#photo_4{
+    position: relative;
+    height: 374px;
+}
+#camp{
+    position: absolute;
+    top: 150px;
+    left: 265px;
+    text-align: center;
+    color: white;
+    width: auto;
+    height: auto;
+}
+#cadre_2{
+    position: absolute;
+    top: 125px;
+    left: 235px;
+    width: auto;
+}
+#photo_5{
+    position: relative;
+    height: 374px;
+}
+#laveda{
+    position: absolute;
+    top: 155px;
+    left: 233px;
+    text-align: center;
+    color: white;
+    width: auto;
+    height: auto;
+}
+#cadre_3{
+    position: absolute;
+    top: 125px;
+    left: 235px;
+    width: auto;
+}
+#bloc_2{
+    display: flex;
+    flex-direction: column;
+    /*! justify-content: center; */
+    align-items: center;
+    background-color: whitesmoke;
+    width: auto;
+    height: auto;
+}
+#buzz{
+    margin-top: 20px;
+    color: gray;
+    opacity: 0.4;
+}
+#texte{
+    text-align: center;
+}
+#rond img{
+    margin-top: 30px;
+    padding: 2px;
+}
+#jason{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: -450px;
+    bottom: 36px;
+}
+#bas{
+    display: flex;
+    /*! flex-direction: row; */
+    /*! position: relative; */
+    width: auto;
+}
+#featured{
+    /*! text-align: left; */
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 1200px;
+    /*! height: auto; */
+}
+#featured p{
+    position: relative;
+    bottom: 15px;
+    color: grey;
+}
+#instagram{
+    margin-top: 30px;
+    width: 1200px;
+    /*! height: auto; */
+}
+#instagram img{
+    margin: 5px;
+}
+#tweet{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 1200px;
+    /*! height: auto; */
+}
+#tweet em{
+    font-style: normal;
+    color: gray;
+}
+#suscribe{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 1200px;
+    /*! height: auto; */
+}
+#email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border: 2px solid gray;
+}
+#email a{
+    text-decoration: none;
+    color: black;
+}
+#tout_bas{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    font-size: 12px;
+}
+@media screen and (max-width: 1250px){
+    body{
+        width: auto;
+        margin-left: 5px;
+    }
+    #portfiolo{
+        font-size: 10px;
+        text-align: center;
+        /*! border: 2px; */
+    }
+    #portfiolo h2{
+        border: 2px solid white;
+    }
+    #bloc_1{
+        height: 270px;   
+        overflow: hidden;
+    }
+    #photo_2, #photo_3, #photo_4, #photo_5{
+        position: relative;
+    }
+    #cadre, #cadre_1, #cadre_2, #cadre_3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    #london{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    #work{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    #camp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    #laveda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    #photo_4{
+        height: 135px;
+    }
+    #photo_5{
+        height: 135px;
+    }
+    #bloc_2{
+        display: block;
+        text-align: center;
+        overflow: hidden;
+    }
+    #jason{
+        position: static;
+    }
+    #bas{
+        flex-direction: column;
+    }
+    #featured{
+        width: 100%;
+        margin: 0;
+    }
+    #instagram{
+        width: 100%;
+        margin: 0;
+    }
+    #tweet{
+        width: 100%;
+        margin: 0;
+    }
+    #suscribe{
+        width: 100%;
+        margin: 0;
+    }
+    #email{
+        position:static; 
+        margin-right: 200px;
+    }
+}
+
